@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --font-family-base: "DM Sans", sans-serif;
+  --font-family-little: "Mulish", sans-serif;
+}
+
+.header {
+  background-color: aliceblue;
+}
+
+.container {
+  max-width: 1070px;
+  padding: 0 30px;
+  padding-top: 30px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+}
+
+.nav-menu-item {
+  font-family: var(--font-family-base);
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.header-actions {
+  display: flex;
+}
+
+.header-getstart-button {
+  font-family: var(--font-family-base);
+  font-size: 17px;
+  width: 211px;
+  height: 60px;
+  color: aliceblue;
+  background-color: orangered;
+  border: 1px solid;
+  border-radius: 10%;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-content p {
+  font-family: var(--font-family-little);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.header-heading {
+  margin-bottom: 20px;
+  font-family: var(--font-family-base);
+  font-weight: 700px;
+  font-size: 80px;
+}
