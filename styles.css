@@ -7,12 +7,18 @@
 
 .header {
   background-color: aliceblue;
+  padding-left: 160px;
 }
 
 .container {
   max-width: 1070px;
   padding: 0 30px;
   padding-top: 30px;
+  background-color: #ffffff;
+}
+
+.nobullet {
+  list-style-type: none;
 }
 
 .header-nav {
@@ -29,7 +35,6 @@
 .nav-menu-item {
   font-family: var(--font-family-base);
   color: black;
-  list-style-type: none;
   text-decoration: none;
 }
 
@@ -52,12 +57,24 @@
   display: flex;
   justify-content: space-between;
   column-gap: 30px;
+  margin-top: 190px;
+}
+
+.header-content {
+  max-width: 459px;
+  height: 451px;
+  top: 282px;
+  padding-left: 184px;
 }
 
 .header-content p {
   font-family: var(--font-family-little);
+  color: #696871;
   font-weight: 400;
   font-size: 20px;
+  min-width: 459px;
+  top: 261px;
+  line-height: 30px;
 }
 
 .header-heading {
@@ -65,4 +82,199 @@
   font-family: var(--font-family-base);
   font-weight: 700px;
   font-size: 80px;
+}
+
+.container-getstart-button {
+  font-family: var(--font-family-base);
+  font-size: 17px;
+  width: 211px;
+  height: 60px;
+  color: aliceblue;
+  background-color: #483d8b;
+  border: 1px solid;
+  border-radius: 10%;
+}
+
+.logo-types {
+  width: 1070px;
+  margin-top: 20px;
+  margin-left: 50px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin-bottom: 90px;
+}
+
+.subscription {
+  margin-left: 160px;
+  display: flex;
+}
+
+.subscription-content {
+  max-width: 460px;
+  margin-top: 124px;
+  margin-left: 130px;
+}
+
+.subscription-heading {
+  font-family: var(--font-family-base);
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.subscription-content p {
+  font-family: var(--font-family-little);
+  font-weight: 400;
+  font-size: 20px;
+  color: #696871;
+}
+
+.content-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+  margin-top: 190px;
+}
+
+.content-metrics {
+  max-width: 556px;
+  height: 451px;
+  top: 282px;
+  padding-left: 184px;
+}
+
+.content-metrics p {
+  font-family: var(--font-family-little);
+  color: #696871;
+  font-weight: 400;
+  font-size: 20px;
+  min-width: 459px;
+  top: 261px;
+  line-height: 30px;
+}
+
+.content-metrics p2 {
+  font-family: var(--font-family-base);
+  color: #5454d4;
+  font-weight: 700;
+  font-size: 17px;
+  min-width: 459px;
+  top: 261px;
+  line-height: 30px;
+}
+
+.content-heading {
+  margin-bottom: 20px;
+  font-family: var(--font-family-base);
+  font-weight: 700px;
+  font-size: 50px;
+}
+
+.content-img {
+  padding-right: 184px;
+}
+
+.services {
+  padding-left: 185px;
+  padding-right: 185px;
+}
+
+.services-row {
+  display: flex;
+  column-gap: 74px;
+}
+
+.services-card-img {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 151px;
+  height: 97px;
+}
+
+.services-card-title {
+  margin-bottom: 10px;
+  font-family: var(--font-family-base);
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.services-card p {
+  font-family: var(--font-family-little);
+  font-weight: 400;
+  font-size: 16px;
+  color: #696871;
+  text-align: center;
+}
+
+.footer-price {
+  width: 1111px;
+  height: 695px;
+  margin-left: 165px;
+  margin-right: 164px;
+  margin-top: 150px;
+}
+
+.footer-title {
+  position: relative;
+  width: 523px;
+  height: 140px;
+  font-family: var(--font-family-base);
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 82px;
+}
+
+.footer-title::after {
+  content: "Yearly";
+  font-family: var(--font-family-base);
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  width: 160px;
+  height: 55px;
+  border-radius: 10%;
+  background-color: #5454d4;
+  position: absolute;
+  top: 53px;
+  left: 773px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 18px;
+  text-align: center;
+}
+
+.footer-columns li {
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-columns h3 {
+  font-family: var(--font-family-base);
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.column-free {
+  width: 150px;
+  height: 200px;
+}
+
+.column-premium {
+  width: 234px;
+  height: 253px;
+  background-color: #ff7143;
+}
+
+.column-enterprice {
+  width: 150px;
+  height: 200px;
 }
